@@ -10,32 +10,35 @@ class Directory extends React.Component {
             sections: [
                 {
                   title: 'tights',
-                  imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+                  imageUrl: 'https://iwanttights.com/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/c/a/cahp.jpg',
+                  size: 'large',
                   id: 1,
                   linkUrl: 'shop/tights'
                 },
                 {
                   title: 'stockings',
-                  imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+                  imageUrl: 'https://iwanttights.com/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/s/t/st3304.jpg',
+                  size: 'large',
                   id: 2,
                   linkUrl: 'shop/stockings'
                 },
                 {
                   title: 'hold ups',
-                  imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+                  imageUrl: 'https://iwanttights.com/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/6/6/6672_2.jpg',
+                  size: 'large',
                   id: 3,
                   linkUrl: 'shop/hold-ups'
                 },
                 {
                   title: 'suspender belts',
-                  imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+                  imageUrl: 'https://iwanttights.com/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/r/b/rbs1.jpg',
                   size: 'large',
                   id: 4,
                   linkUrl: 'shop/suspender-belts'
                 },
                 {
-                  title: 'lingerie',
-                  imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+                  title: 'retro lingerie & more',
+                  imageUrl: 'https://iwanttights.com/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/r/o/rozamehthoclrt.jpg',
                   size: 'large',
                   id: 5,
                   linkUrl: 'shop/lingerie'
