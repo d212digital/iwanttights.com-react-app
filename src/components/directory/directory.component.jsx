@@ -9,39 +9,46 @@ class Directory extends React.Component {
         this.state = {
             sections: [
                 {
-                  title: 'tights',
-                  imageUrl: 'https://iwanttights.com/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/c/a/cahp.jpg',
+                  title: 'tights collection',
+                  imageUrl: 'https://iwanttights.com/media/promobanners//h/o/home-037b.png',
                   size: 'large',
                   id: 1,
                   linkUrl: 'shop/tights'
                 },
                 {
-                  title: 'stockings',
-                  imageUrl: 'https://iwanttights.com/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/s/t/st3304.jpg',
+                  title: 'stockings colleciton',
+                  imageUrl: 'https://iwanttights.com/media/promobanners//h/o/home-027a.png',
                   size: 'large',
                   id: 2,
                   linkUrl: 'shop/stockings'
                 },
                 {
-                  title: 'hold ups',
-                  imageUrl: 'https://iwanttights.com/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/6/6/6672_2.jpg',
+                  title: 'hold ups collection',
+                  imageUrl: 'https://iwanttights.com/media/promobanners//h/o/home-037_1.png',
                   size: 'large',
                   id: 3,
                   linkUrl: 'shop/hold-ups'
                 },
                 {
-                  title: 'suspender belts',
-                  imageUrl: 'https://iwanttights.com/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/r/b/rbs1.jpg',
+                  title: 'retro knickers & more',
+                  imageUrl: 'https://iwanttights.com/media/promobanners//h/o/home-047a_1.png',
                   size: 'large',
                   id: 4,
+                  linkUrl: 'shop/lingerie'
+                },
+                {
+                  title: 'suspender belt collection',
+                  imageUrl: 'https://iwanttights.com/media/promobanners//h/o/home-057.png',
+                  size: 'large',
+                  id: 5,
                   linkUrl: 'shop/suspender-belts'
                 },
                 {
-                  title: 'retro lingerie & more',
-                  imageUrl: 'https://iwanttights.com/media/catalog/product/cache/95cb36d3254e0a20b33361b06e7c0ce9/r/o/rozamehthoclrt.jpg',
+                  title: 'body stockings & more',
+                  imageUrl: 'https://iwanttights.com/media/promobanners//h/o/home-067.png',
                   size: 'large',
                   id: 5,
-                  linkUrl: 'shop/lingerie'
+                  linkUrl: 'shop/body-stockings'
                 }
               ] 
     }

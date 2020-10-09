@@ -13,7 +13,7 @@ const Header = ( {currentUser }) => (
         </Link>
         <div className='options'>
         <Link className='option' to="/shop">
-            SHOP
+            BROWSE COLLECTIONS
         </Link>
         <Link className='option' to="/contact">
             CONTACT
@@ -30,6 +30,7 @@ const Header = ( {currentUser }) => (
         )}
         </div>
     </div>
+ 
 );
 
 export default Header;
