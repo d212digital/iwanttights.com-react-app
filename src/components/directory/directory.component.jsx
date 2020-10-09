@@ -16,7 +16,7 @@ class Directory extends React.Component {
                   linkUrl: 'shop/tights'
                 },
                 {
-                  title: 'stockings colleciton',
+                  title: 'stockings collection',
                   imageUrl: 'https://iwanttights.com/media/promobanners//h/o/home-027a.png',
                   size: 'large',
                   id: 2,
