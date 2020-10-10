@@ -47,7 +47,7 @@ class Directory extends React.Component {
                   title: 'body stockings & more',
                   imageUrl: 'https://iwanttights.com/media/promobanners//h/o/home-067.png',
                   size: 'large',
-                  id: 5,
+                  id: 6,
                   linkUrl: 'shop/body-stockings'
                 }
               ] 
