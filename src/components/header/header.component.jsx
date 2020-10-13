@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { connect } from 'react-redux';
 import './header.styles.scss';
 import { auth } from '../../firebase/firebase.utils';
 
@@ -12,10 +13,14 @@ const Header = ( {currentUser }) => (
         <Logo className='logo' />
         </Link>
         <div className='options'>
-        <Link className='option' to="/shop">
+
+        <Link className='option' to='/shop'>
             BROWSE COLLECTIONS
         </Link>
-        <Link className='option' to="/contact">
+        <Link className='option' to='/brandsdirectory'>
+            BRANDS
+        </Link>
+        <Link className='option' to='/contact'>
             CONTACT
         </Link>
         
@@ -33,4 +38,8 @@ const Header = ( {currentUser }) => (
  
 );
 
-export default Header;
+const mapStateToProps = state => ({
+    currentUser: state.user.currentUser
+});
+
+export default connect(mapStateToProps)(Header);
